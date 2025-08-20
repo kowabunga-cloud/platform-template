@@ -8,7 +8,7 @@
   </a>
 </p>
 
-# About
+# Kowabunga Platform Template
 
 This is **Kowabunga**, a complete infrastructure automation suite to orchestrate virtual resources management automation on privately-owned commodity hardware.
 
@@ -17,7 +17,7 @@ This is **Kowabunga**, a complete infrastructure automation suite to orchestrate
 ![Comments](https://sloc.xyz/github/kowabunga-cloud/platform-template/?category=comments)
 ![COCOMO](https://sloc.xyz/github/kowabunga-cloud/platform-template/?category=cocomo&avg-wage=100000)
 
-This repository is Kowabunga' platform template, ready to be forked, to bootstrap your next Kowabunga project.
+This repository is **Kowabunga's platform template**, ready to be forked, to bootstrap your next Kowabunga project.
 
 Check out [Kowabunga's documentation](https://kowabunga.cloud/docs/getting-started/software/) on how to start your own private platform !
 

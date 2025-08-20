@@ -1,0 +1,3 @@
+kowabunga_os_user_admin_accounts_enabled: []
+kowabunga_os_user_admin_accounts_pubkey_dirs:
+  - "{{ playbook_dir }}/../../../../../files/pubkeys"

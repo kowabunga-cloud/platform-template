@@ -1,0 +1,5 @@
+---
+collections:
+  - name: git@github.com:kowabunga-cloud/ansible-collections-kowabunga
+    type: git
+    version: master

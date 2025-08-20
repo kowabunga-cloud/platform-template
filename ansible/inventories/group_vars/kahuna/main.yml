@@ -1,0 +1,33 @@
+kowabunga_firewall_enabled: true
+kowabunga_firewall_open_tcp_ports:
+  - 22
+  - 80
+  - 443
+
+kowabunga_mongodb_enabled: true
+kowabunga_mongodb_listen_addr: "127.0.0.1"
+kowabunga_mongodb_rs_key: "{{ secret_kowabunga_mongodb_rs_key }}"
+kowabunga_mongodb_rs_name: kowabunga
+kowabunga_mongodb_admin_password: "{{ secret_kowabunga_mongodb_admin_password }}"
+kowabunga_mongodb_users:
+  - base: kowabunga
+    username: kowabunga
+    password: '{{ secret_kowabunga_mongodb_user_password }}'
+    readWrite: true
+
+kowabunga_public_url: "https://kowabunga.acme.com"
+
+kowabunga_kahuna_http_address: "127.0.0.1"
+kowabunga_kahuna_admin_email: kowabunga@acme.com
+kowabunga_kahuna_jwt_signature: "{{ secret_kowabunga_kahuna_jwt_signature }}"
+kowabunga_kahuna_db_uri: "mongodb://kowabunga:{{ secret_kowabunga_mongodb_user_password }}@127.0.0.1:{{ mongodb_port }}/kowabunga?authSource=kowabunga"
+kowabunga_kahuna_api_key: "{{ secret_kowabunga_kahuna_api_key }}"
+
+kowabunga_kahuna_bootstrap_user: kowabunga
+kowabunga_kahuna_bootstrap_pubkey: "YOUR_SSH_PUB_KEY"
+
+kowabunga_kahuna_smtp_host: "smtp.acme.com"
+kowabunga_kahuna_smtp_port: 587
+kowabunga_kahuna_smtp_from: "Kowabunga <{{ kowabunga_kahuna_admin_email }}>"
+kowabunga_kahuna_smtp_username: kowabunga
+kowabunga_kahuna_smtp_password: "{{ secret_kowabunga_kahuna_smtp_password }}"

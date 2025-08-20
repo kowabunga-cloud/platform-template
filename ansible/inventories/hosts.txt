@@ -1,0 +1,2 @@
+[kahuna]
+a.b.c.d name=kowabunga-kahuna-1 ansible_ssh_user=ubuntu

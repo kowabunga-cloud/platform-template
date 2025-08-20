@@ -1,0 +1,6 @@
+.kobra.d/
+terraform/.terraform
+terraform/terraform.tfstate.backup
+terraform/passphrase.auto.tfvars
+ansible/roles/
+ansible/collections/
